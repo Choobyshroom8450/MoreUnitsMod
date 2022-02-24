@@ -1,0 +1,8 @@
+name: "moreuints"
+displayName: "More Units Mod"
+author: choobyshroom
+description: "Adds more units to mindustry"
+version: "1.0"
+minGameVersion: "106"
+dependencies: [ ]
+hidden: false
