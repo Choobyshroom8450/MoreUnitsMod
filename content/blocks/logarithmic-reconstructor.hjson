@@ -1,0 +1,29 @@
+name: Logarithmic Reconstuctor
+type: Reconstructor
+
+requirements: [
+  titanium/1000
+  thorium/700
+  silicon/700
+  plastanium/700
+]
+  
+ constructime: 50000
+  
+size: 7
+consumePower: 5000
+consumes: {
+    items: {
+     items: [
+  silicon/1400
+  thorium/800
+  phase-fabric/600
+  ]
+ }
+}
+
+upgrades: [
+  [ortrod, vertox]
+]
+
+category: units

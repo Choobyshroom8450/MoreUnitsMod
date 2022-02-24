@@ -1,0 +1,18 @@
+name: Cerex
+desc: A modified version of the crawler, which heals nearby units.
+type: mech
+speed: 2
+health: 100
+rotateSpeed: 10
+range: 160
+hover: false
+abilities: [
+	{
+		type: RepairFieldAbility
+		amount: 20
+		reload: 100
+		range: 60
+		healEffect: heal
+		activeEffect: healWaveDynamic
+	}
+]

@@ -1,0 +1,27 @@
+name: Differential Reconstuctor
+type: Reconstructor
+
+requirements: [
+  titanium/100
+  lead/120
+  silicon/90
+]
+  
+ constructime: 30000
+  
+size: 3
+consumePower: 1800
+consumes: {
+    items: {
+     items: [
+  silicon/15
+  lead/20
+  ]
+ }
+}
+
+upgrades: [
+  [crawler, cerex]
+]
+
+category: units

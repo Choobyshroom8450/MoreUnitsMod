@@ -1,0 +1,27 @@
+name: Alternate Reconstuctor
+type: Reconstructor
+
+requirements: [
+  titanium/100
+  thorium/100
+  silicon/300
+]
+  
+ constructime: 50000
+  
+size: 5
+consumePower: 5000
+consumes: {
+    items: {
+     items: [
+  silicon/200
+  thorium/40
+  ]
+ }
+}
+
+upgrades: [
+  [cerex, ortrod]
+]
+
+category: units

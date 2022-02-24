@@ -1,0 +1,76 @@
+name: Vertox
+desc: A further upgraded version of the Ortod. has repair beams which heal nearby allies.
+type: legs
+hitSize: 20
+speed: 0.5
+health: 7000
+rotateSpeed: 4
+range: 125
+hover: false
+legCount: 6
+allowLegStep: true
+legExtension: 30
+legLength: 30
+weapons: [ 
+		{
+	name: plasma-laser-mount
+    ammoMultiplier: 2
+    reload: 30
+    x: 12
+    y: 5
+	shootSound: laser
+      bullet: {
+    type: LaserBulletType
+	damage: 50
+	lifetime: 20
+	width: 18
+	length: 125
+	collidesTeam: true
+	healPercent: 1
+	colors: [
+	  84f491
+	  b1ffba
+	  ffffff
+	]
+	lightColor: 84f491
+	 }}
+	 		{
+	name: plasma-laser-mount
+    ammoMultiplier: 2
+    reload: 30
+    x: -12
+    y: 5
+	shootSound: laser
+      bullet: {
+    type: LaserBulletType
+	damage: 50
+	lifetime: 20
+	width: 18
+	length: 125
+	collidesTeam: true
+	healPercent: 1
+	colors: [
+	  84f491
+	  b1ffba
+	  ffffff
+	]
+	lightColor: 84f491
+	 }}
+]
+abilities: [
+	{
+		type: RepairFieldAbility
+		amount: 200
+		reload: 200
+		range: 140
+		healEffect: heal
+		activeEffect: healWaveDynamic
+	}
+	{
+	type: ForceFieldAbility
+	radius: 100
+	regen: 4
+	max: 500
+	cooldown: 500
+	}
+]

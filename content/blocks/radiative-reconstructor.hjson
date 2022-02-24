@@ -1,0 +1,31 @@
+name: Radiative Reconstuctor
+type: Reconstructor
+
+requirements: [
+  titanium/3000
+  thorium/1000
+  silicon/5000
+  plastanium/1200
+  surge-alloy/800
+]
+  
+ constructime: 50000
+  
+size: 9
+consumePower: 5000
+consumes: {
+    items: {
+     items: [
+  silicon/3000
+  thorium/1200
+  phase-fabric/1000
+  surge-alloy/800
+  ]
+ }
+}
+
+upgrades: [
+  [vertox, cervontix]
+]
+
+category: units

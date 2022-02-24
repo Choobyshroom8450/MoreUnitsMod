@@ -1,0 +1,53 @@
+name: Ortrod
+desc: A More advanced version of the Cervex, has force shields.
+type: legs
+hitSize: 15
+speed: 0.8
+health: 400
+rotateSpeed: 6
+range: 75
+hover: false
+legCount: 3
+allowLegStep: true
+weapons: [ 
+{
+    name: plasma-laser-mount
+    ammoMultiplier: 2
+    reload: 50
+    x: 0
+    y: -4
+	shootSound: laser
+      bullet: {
+    type: LaserBulletType
+	damage: 30
+	lifetime: 25
+	width: 10
+	length: 75
+	collidesTeam: true
+	healPercent: 1
+	colors: [
+	  84f491
+	  b1ffba
+	  ffffff
+	]
+	lightColor: 84f491
+	 }}
+]
+abilities: [
+	{
+		type: RepairFieldAbility
+		amount: 20
+		reload: 300
+		range: 80
+		healEffect: heal
+		activeEffect: healWaveDynamic
+	}
+
+	{
+	type: ForceFieldAbility
+	radius: 50
+	regen: 1
+	max: 6
+	cooldown: 400
+	}
+]
